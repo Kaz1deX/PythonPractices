@@ -52,10 +52,7 @@ class hashTable:
             self.table.append([1, 1])
 
     def __setitem__(self, value):
-        if self.filled == self.size:
-            raise Warning("Filled")
-        table[self.filled] = [hash(value) % self.size, value]
-        self.filled += 1
+        pass
 
     def __getitem__():
         pass
