@@ -2,6 +2,7 @@ class Chaos:
     def __init__(self, mu, state):
         self.mu = mu
         self.state = state
+        self.stabilize()
 
     def stabilize(self):
         for i in range(1000):

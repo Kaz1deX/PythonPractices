@@ -11,7 +11,8 @@ def draw(vertices, edges):
         dot.edge(str(edge[0]), str(edge[1]))
     # Граф
     dot.format = 'png'
-    dot.render('C:\\Users\\Maxim\\PythonPractices\\Homeworks\\HomeWork_4\\graph', view=True)
+    dot.render(
+        'C:\\Users\\Maxim\\PythonPractices\\Homeworks\\HomeWork_4\\graph', view=True)
 
 
 draw([(1, 'v1'), (2, 'v2')], [(1, 2), (2, 3), (2, 2)])
